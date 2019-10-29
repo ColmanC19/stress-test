@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="css/styles.css">
+   <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="crossorigin="anonymous"></script>
+   <script src="js/scripts.js"> </script>
+    <meta charset="utf-8">
+    <title>Stress Test</title>
+  </head>
+  <body>
+    <div class="container">
+      <h4> Do you have any of these habits that could factor into your stress level?</h4>
+      <form id="stress-factors">
+        <div class="form-group">
+          <input type="checkbox" name="factor" value="1" id="factors"> Chronic illness or injury
+          <input type="checkbox" name="factor" value="1" id="factors"> Loss of a job
+          <input type="checkbox" name="factor" value="1" id="factors"> Traumatic event, such as a natural disaster
+          <input type="checkbox" name="factor" value="1" id="factors"> Working long hours
+        </div>
+
+      <h4> Have you experienced any symptoms listed below?</h4>
+        <div class="form-group">
+          <input type="checkbox" name="factor" value="1" id="symptoms"> Insomnia
+          <input type="checkbox" name="factor" value="1" id="symptoms"> Low Energy
+          <input type="checkbox" name="factor" value="1" id="symptoms"> Tense Muscles
+          <input type="checkbox" name="factor" value="1" id="symptoms"> Anxiety
+        </div>
+        <h4> Have you tried any of these recommended coping methods? </h4>
+        <div class="form-group">
+          <input type="checkbox" name="factor" value="-1" id="methods"> Meditate
+          <input type="checkbox" name="factor" value="-1" id="methods"> Manage your time
+          <input type="checkbox" name="factor" value="-2" id="methods"> Pet a cat
+          <input type="checkbox" name="factor" value="-1" id="methods"> Drink water
+        </div>
+        <button type="submit"> Submit </button>
+    </form>
+     <div id="negResult">
+       <p>We reccomend destressing your life. Try getting more sleep, drinking more water, working less and doing something that brings you joy.</p>
+
+     </div>
+     <div id="posResult">
+       <p>Way to go! It looks to us like you lead a fairly stress free life. Or perhaps you are good at processing your stress in a healthy way.</p>
+
+     </div>
+  </body>
+</html>
