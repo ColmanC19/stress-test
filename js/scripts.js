@@ -8,22 +8,6 @@ $(document).ready(function(){
 
       newArray.push(userStress)
 
-      // console.log(newArray)
-        // if (userStress <= 5) {
-        //   console.log()
-        //   $("#posResult").show();
-        //   $("negResult").hide();
-        // } else if (userStress >5 && userStress <= 10) {
-        //   $("#posResult").hide();
-        //   $("negResult").show();
-        // } else if (isNaN(userStress)) {
-        //   alert("Please complete the survey");
-        //   $("#posResult").hide();
-        //   $("negResult").hide();
-        // }
-
-
-
       })
       if (newArray.length == 0) {
       alert("Please complete the survey");
